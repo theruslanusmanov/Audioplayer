@@ -14,6 +14,11 @@
 		44B3C3762A75422B002BB736 /* AudioplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C3752A75422B002BB736 /* AudioplayerTests.swift */; };
 		44B3C3802A75422B002BB736 /* AudioplayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C37F2A75422B002BB736 /* AudioplayerUITests.swift */; };
 		44B3C3822A75422B002BB736 /* AudioplayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C3812A75422B002BB736 /* AudioplayerUITestsLaunchTests.swift */; };
+		44B3C3902A7544FD002BB736 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C38F2A7544FD002BB736 /* SignIn.swift */; };
+		44B3C3922A75450C002BB736 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C3912A75450C002BB736 /* Discover.swift */; };
+		44B3C3942A754513002BB736 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C3932A754513002BB736 /* Player.swift */; };
+		44B3C3962A75451A002BB736 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C3952A75451A002BB736 /* Genres.swift */; };
+		44B3C3982A754537002BB736 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C3972A754537002BB736 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		44B3C37B2A75422B002BB736 /* AudioplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B3C37F2A75422B002BB736 /* AudioplayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioplayerUITests.swift; sourceTree = "<group>"; };
 		44B3C3812A75422B002BB736 /* AudioplayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioplayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44B3C38F2A7544FD002BB736 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		44B3C3912A75450C002BB736 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		44B3C3932A754513002BB736 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		44B3C3952A75451A002BB736 /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		44B3C3972A754537002BB736 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		44B3C3632A75422A002BB736 /* Audioplayer */ = {
 			isa = PBXGroup;
 			children = (
+				44B3C38E2A7544CE002BB736 /* Views */,
 				44B3C3642A75422A002BB736 /* AudioplayerApp.swift */,
 				44B3C3662A75422A002BB736 /* ContentView.swift */,
 				44B3C3682A75422A002BB736 /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				44B3C3812A75422B002BB736 /* AudioplayerUITestsLaunchTests.swift */,
 			);
 			path = AudioplayerUITests;
+			sourceTree = "<group>";
+		};
+		44B3C38E2A7544CE002BB736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44B3C38F2A7544FD002BB736 /* SignIn.swift */,
+				44B3C3912A75450C002BB736 /* Discover.swift */,
+				44B3C3932A754513002BB736 /* Player.swift */,
+				44B3C3952A75451A002BB736 /* Genres.swift */,
+				44B3C3972A754537002BB736 /* Playlist.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B3C3922A75450C002BB736 /* Discover.swift in Sources */,
 				44B3C3672A75422A002BB736 /* ContentView.swift in Sources */,
+				44B3C3902A7544FD002BB736 /* SignIn.swift in Sources */,
+				44B3C3982A754537002BB736 /* Playlist.swift in Sources */,
+				44B3C3962A75451A002BB736 /* Genres.swift in Sources */,
+				44B3C3942A754513002BB736 /* Player.swift in Sources */,
 				44B3C3652A75422A002BB736 /* AudioplayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
